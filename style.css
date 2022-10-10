@@ -31,6 +31,12 @@ body {
 
 }
 
+.section-one {
+    display: flex;
+    background: #1F2937;
+    border: purple solid;
+}
+
 a {
     text-decoration: none;
     color: #E5E7EB;
