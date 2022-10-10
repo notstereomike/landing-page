@@ -35,7 +35,52 @@ body {
     display: flex;
     background: #1F2937;
     border: purple solid;
+    justify-content: space-between;
 }
+
+.section-one-left {
+    flex-direction: column;
+    border: pink solid;
+    display: flex;
+    padding: 15px;
+    width: 500px;
+    margin: 25px;
+}
+
+.awesome  {
+    color: #E5E7EB;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 10px;
+    
+}
+
+.sign-up{
+    align-self: flex-start;
+    margin: 10px;
+    background-color: #3882f6;
+}
+.awesome-sub {
+    display: flex;
+    color: #E5E7EB;
+    margin:auto 10px;
+}
+
+.section-one-right {
+    border: pink solid;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+    width: 500px;
+    flex-grow: 0;
+}
+
+.ab-logo {
+    display: flex;
+    height: 150px;
+    }
 
 a {
     text-decoration: none;
