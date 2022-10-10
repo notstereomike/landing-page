@@ -1,22 +1,33 @@
+body {
+    margin:0
+}
+
 .header {
     border: red solid;
     background: #1F2937;
     display: flex;
     height: 50px;
-        }
+    justify-content: space-between;
+    padding: 10px;
+    }
 
 .header-links {
+    border: pink solid;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    
-}
+    justify-content: space-around;
+    gap: 10px;
+      
+    }
 
 .logo {
     display: flex;
     justify-content: center;
     align-items: center;
     color: #E5E7EB;
+    font-weight: bolder;
+    font-size: 24px;
+    border: pink solid;
 
 }
 
