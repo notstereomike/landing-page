@@ -1,3 +1,3 @@
 Odin Project Landing Page Project 
 
-URL: www.notstereomike.github.io/landing-page
+URL: https://notstereomike.github.io/landing-page/
