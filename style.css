@@ -3,7 +3,6 @@ body {
 }
 
 .header {
-    border: red solid;
     background: #1F2937;
     display: flex;
     height: 50px;
@@ -12,12 +11,10 @@ body {
     }
 
 .header-links {
-    border: pink solid;
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 10px;
-      
     }
 
 .logo {
@@ -27,20 +24,16 @@ body {
     color: #E5E7EB;
     font-weight: bolder;
     font-size: 24px;
-    border: pink solid;
-
-}
+    }
 
 .section-one {
     display: flex;
     background: #1F2937;
-    border: purple solid;
-    justify-content: space-between;
+        justify-content: space-between;
 }
 
 .section-one-left {
     flex-direction: column;
-    border: pink solid;
     display: flex;
     padding: 15px;
     width: 500px;
@@ -54,10 +47,16 @@ body {
     margin: 10px;
     }
 
-.sign-up{
+.button1 {
     align-self: flex-start;
     margin: 10px;
     background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+   
 }
 .awesome-sub {
     display: flex;
@@ -66,7 +65,6 @@ body {
 }
 
 .section-one-right {
-    border: pink solid;
     display: flex;
     padding: 30px;
     align-items: center;
@@ -89,18 +87,33 @@ a {
 
 .section-2-cards {
     display: flex;
-    border: pink solid;
     padding: 25px;
-    margin: 25px;
     align-content: center;
     justify-content: space-around;
     gap: 10px;
-    
-        
+           
 }
 
+.section-three {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    display: flex;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 50;
+    padding: 100px;
+    padding-bottom: 0;
+    flex-direction: column;
+}
+
+h3{
+    text-align: right;
+}
 .card-1, .card-2, .card-3, .card-4 {
-    border: purple solid;
     align-content: center;
     justify-content: center;
     display: flex;
@@ -116,5 +129,47 @@ p {
 h2 {
     display: flex;
     align-content: center;
+    justify-content: center;
+}
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+        
+}
+
+
+.sign-up-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+    background-color: #3882f6;
+    color: white;
+    flex-grow: 1;
+    border-radius: 10px;
+    gap: 30px;
+    text-align: left;
+     
+}
+
+.button2 {
+    
+    background-color: #3882f6;
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border-style: solid;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    height: 50px;
+    align-items: center;
     justify-content: center;
 }
