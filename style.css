@@ -29,8 +29,9 @@ body {
 .section-one {
     display: flex;
     background: #1F2937;
-        justify-content: space-between;
-}
+    justify-content: space-between;
+    padding:50px;
+    }
 
 .section-one-left {
     flex-direction: column;
@@ -67,8 +68,8 @@ body {
 .section-one-right {
     display: flex;
     padding: 30px;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end;
+    justify-content:right;
     margin: 25px;
     width: 500px;
     flex-grow: 1;
