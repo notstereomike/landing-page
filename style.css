@@ -122,6 +122,7 @@ h3{
     width: 150px;
     flex-grow: 0;
 }
+
 p {
     text-align: center;
     flex-wrap: wrap;
@@ -140,7 +141,6 @@ h2 {
         
 }
 
-
 .sign-up-box {
     display: flex;
     align-items: center;
@@ -152,8 +152,7 @@ h2 {
     border-radius: 10px;
     gap: 30px;
     text-align: left;
-     
-}
+     }
 
 .button2 {
     
